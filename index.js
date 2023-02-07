@@ -145,7 +145,7 @@ function displayDiary(diary) {
 function sanitize(input) {
   return input
     .replace(/</g, '&lt;')
-    .replace(/>/g, '$gt;')
+    .replace(/>/g, '&gt;')
     .replace(/&/g, '&amp;')
     .replace(/'/g, '&apos;')
     .replace(/"/g, '&quot;');
